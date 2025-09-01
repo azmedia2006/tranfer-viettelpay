@@ -1,54 +1,57 @@
-<h1 align="center">💸 TRANSFER VIETTELPAY & BANK API - SPAYMENT.NET 💸</h1>
+<!-- Banner gradient có thể thay bằng SVG hoặc GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/QBd2kLB5qDmysEXre9/giphy.gif" width="100%" alt="Transfer API Banner" />
+</p>
+
+<h1 align="center">💸 TRANSFER VIETTELPAY & BANK API 💸</h1>
+<p align="center"><b>Chia sẻ API chuyển tiền ViettelPay, MB, VCB, MSB,... qua SPAYMENT.NET</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/API%20Status-ONLINE-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Support-Telegram-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Price-Only%2035k%2Fmonth-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/API%20Status-ONLINE-brightgreen?style=for-the-badge&logo=power" />
+  <img src="https://img.shields.io/badge/Giá-35k%2FTháng-blueviolet?style=for-the-badge&logo=money" />
+  <img src="https://img.shields.io/badge/Hỗ_Trợ-Telegram-2CA5E0?style=for-the-badge&logo=telegram" />
 </p>
 
 ---
 
-## 🚀 GIỚI THIỆU
+## 🚀 TÍNH NĂNG NỔI BẬT
 
-Chào bạn! 👋  
-Đây là **bộ API chuyển tiền ViettelPay và các ngân hàng Việt Nam** cực kỳ tiện lợi thông qua nền tảng [SPAYMENT.NET](https://spayment.net).  
-Giá siêu rẻ chỉ **35.000đ/tháng** – hỗ trợ sinh viên 🧑‍🎓  
-Bạn có thể sử dụng để:
-- 💵 Chuyển tiền ViettelPay
-- 🏦 Kết nối với các ngân hàng: **VCB, MB, ACB, MSB,...**
-- 🧰 Viết tool, web API, auto banking
-
----
-
-## 🎨 GIAO DIỆN ĐẸP - HIỆN ĐẠI
-
-> Chúng tôi cung cấp giao diện UI hiện đại, nhiều màu sắc 🎨, dễ tích hợp cho lập trình viên:
-- Giao diện REST API rõ ràng
-- Dễ tích hợp với Python, Node.js, PHP, v.v.
-- Có **Token/API Key riêng** cho mỗi user
-- Hỗ trợ **Webhook nhận trạng thái giao dịch**
+| 🧩 Tính năng | 🔍 Mô tả |
+|-------------|----------|
+| 💵 Chuyển tiền nhanh | Gửi tiền qua ViettelPay, MB, VCB,... trong 3-5s |
+| 🔐 Bảo mật Token | API sử dụng Token riêng cho từng user |
+| 📥 Webhook hỗ trợ | Tự động nhận callback kết quả giao dịch |
+| 🔎 Truy vấn | Xem lịch sử, trạng thái giao dịch nhanh |
+| 🧰 Dễ tích hợp | Hỗ trợ Python, Node.js, PHP, Postman, cURL,... |
 
 ---
 
-## 📦 TÍNH NĂNG CHÍNH
+## 🧑‍💻 GIỚI THIỆU
 
-| Tính năng              | Mô tả                                                                 |
-|------------------------|----------------------------------------------------------------------|
-| ✅ Chuyển tiền nhanh   | Chuyển khoản tới tài khoản ViettelPay hoặc ngân hàng trong 5s       |
-| 🔐 Bảo mật cao         | Sử dụng Token riêng, hạn chế IP, xác thực HTTPS                     |
-| 🧾 Truy vấn lịch sử    | API truy vấn giao dịch, lịch sử chuyển tiền                         |
-| 💬 Hỗ trợ Telegram     | Hỗ trợ 24/7 qua Telegram - liên hệ bên dưới                         |
+Chào anh em dev 👋  
+Đây là repo chia sẻ API chuyển tiền ViettelPay & Ngân hàng tại Việt Nam thông qua nền tảng:
+
+🎯 **[SPAYMENT.NET](https://spayment.net)** – nơi cung cấp API giá rẻ chỉ **35.000đ/tháng**, phù hợp cho:
+- Sinh viên code đồ án 👨‍🎓
+- Chủ shop muốn auto banking 🛒
+- AE làm tool auto tài chính 💻
 
 ---
 
-## 🛠 CÀI ĐẶT & SỬ DỤNG
+## 🖼 DEMO GIAO DIỆN
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="80%" alt="Demo Tool" />
+</p>
+
+---
+
+## 🔧 CÀI ĐẶT & SỬ DỤNG
 
 ```bash
-# Clone repo về máy
-git clone https://github.com/yourusername/transfer-viettelpay-api.git
+# Clone repo
+git clone https://github.com/azmedia2006/tranfer-viettelpay.git
+cd tranfer-viettelpay
 
-# Cài đặt gói (nếu có project)
-cd transfer-viettelpay-api
-npm install  # hoặc pip install -r requirements.txt
-
-# Liên hệ để nhận API key
+# Cài đặt các package (nếu có)
+npm install         # hoặc pip install -r requirements.txt
