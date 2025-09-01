@@ -1,47 +1,56 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZ2bGx0dDNtMHZoc3BkdmN3eTI5NjN6eTRjMGk5cHJ1dWJlZ2NseSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HUkOv6BNWc1HO/giphy.gif" width="100%" alt="Banner" />
+  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="100%" alt="API Banking Banner" />
 </p>
 
-<h1 align="center">💳 API CHUYỂN TIỀN VIETTELPAY & NGÂN HÀNG - SPAYMENT.NET 💸</h1>
+<h1 align="center">💸 API CHUYỂN TIỀN VIETTELPAY & NGÂN HÀNG - SPAYMENT.NET 💸</h1>
+<p align="center"><b>Hỗ trợ đầy đủ các ngân hàng lớn - Dễ tích hợp - Giá rẻ cho sinh viên</b></p>
 
 <p align="center">
-  <b>Giải pháp Banking API cho sinh viên, tool dev, web tài chính</b><br/>
-  <b>Giá rẻ - Tốc độ - Bảo mật - Dễ tích hợp</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/API%20STATUS-ONLINE-brightgreen?style=for-the-badge&logo=datadog" />
-  <img src="https://img.shields.io/badge/Giá%20API-35K%2Ftháng-blueviolet?style=for-the-badge&logo=moneygram" />
-  <img src="https://img.shields.io/badge/Telegram%20Support-%40minhquan2006-2CA5E0?style=for-the-badge&logo=telegram" />
+  <img src="https://img.shields.io/badge/API%20Status-Online-brightgreen?style=for-the-badge&logo=datadog" />
+  <img src="https://img.shields.io/badge/Giá-35k%2Ftháng-blueviolet?style=for-the-badge&logo=moneygram" />
+  <img src="https://img.shields.io/badge/Telegram-%40minhquan2006-2CA5E0?style=for-the-badge&logo=telegram" />
 </p>
 
 ---
 
 ## 🔥 TÍNH NĂNG NỔI BẬT
 
-| ✅ Tính năng         | 💡 Mô tả nhanh |
-|---------------------|----------------|
-| 💸 Chuyển tiền       | ViettelPay → VCB, MB, MSB, ACB... |
-| 🛡️ Token bảo mật     | Token riêng, hỗ trợ IP whitelist |
-| 🧾 Lịch sử giao dịch | API query theo thời gian, trạng thái |
-| 🔔 Webhook           | Nhận callback realtime khi hoàn thành |
-| 📥 Dễ tích hợp       | Hỗ trợ POSTMAN, cURL, Python, PHP, Node.js |
+| ✅ | Tính năng | Mô tả |
+|----|-----------|-------|
+| 💸 | Chuyển tiền | Gửi tiền từ ViettelPay hoặc ngân hàng bất kỳ |
+| 🏦 | Đa ngân hàng | Hỗ trợ: VCB, MB, ACB, MSB, TPBank, BIDV, VPBank, Techcombank... |
+| 🔐 | Token bảo mật | Xác thực API bằng token riêng, hỗ trợ giới hạn IP |
+| 🧾 | Truy vấn giao dịch | Lọc theo trạng thái, thời gian, STK |
+| 🔁 | Webhook | Tự động nhận kết quả khi giao dịch thành công |
 
 ---
 
-## 📂 CẤU TRÚC API
+## 🏦 DANH SÁCH NGÂN HÀNG HỖ TRỢ
 
-### ➕ Chuyển khoản đơn
-```http
-POST /api/v1/transfer
-Host: spayment.net
-Authorization: Bearer YOUR_API_KEY
-Content-Type: application/json
+- ✅ **Vietcombank (VCB)**
+- ✅ **MB Bank**
+- ✅ **ACB - Á Châu**
+- ✅ **MSB - Maritime**
+- ✅ **TPBank**
+- ✅ **BIDV**
+- ✅ **Techcombank**
+- ✅ **VPBank**
+- ✅ **VietinBank**
+- ✅ **SHB, VIB, OCB...**
+- ✅ Và tất cả tài khoản liên kết qua ViettelPay
 
+> 👉 **Gửi yêu cầu tích hợp thêm ngân hàng khác qua Telegram @minhquan2006**
+
+---
+
+## 🧪 CẤU TRÚC API MẪU
+
+### 🔄 POST `/api/v1/transfer`
+```json
 {
   "bank": "VCB",
   "stk": "0123456789",
-  "amount": 50000,
-  "note": "Ung ho ban be"
+  "amount": 100000,
+  "note": "Ung ho ban"
 }
