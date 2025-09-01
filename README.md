@@ -1,4 +1,4 @@
-<h1 align="center">💸 API CHUYỂN TIỀN VIETTELPAY & NGÂN HÀNG - SPAYMENT.NET 💸</h1>
+<h1 align="center">💸 API CHUYỂN TIỀN VIETTELPAY & NGÂN HÀNG  💸</h1>
 <p align="center"><b>Hỗ trợ đầy đủ các ngân hàng lớn · Dễ tích hợp · Giá rẻ cho sinh viên</b></p>
 
 <p align="center">
