@@ -1,7 +1,4 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="100%" alt="API Banking Banner" />
-</p>
+
 
 <h1 align="center">💸 API CHUYỂN TIỀN VIETTELPAY & NGÂN HÀNG - SPAYMENT.NET 💸</h1>
 <p align="center"><b>Hỗ trợ đầy đủ các ngân hàng lớn - Dễ tích hợp - Giá rẻ cho sinh viên</b></p>
@@ -54,3 +51,8 @@
   "amount": 100000,
   "note": "Ung ho ban"
 }
+
+<!-- Banner -->
+<p align="center">
+  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="100%" alt="API Banking Banner" />
+</p>
