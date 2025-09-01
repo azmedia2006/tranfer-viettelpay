@@ -52,7 +52,3 @@
   "note": "Ung ho ban"
 }
 
-<!-- Banner -->
-<p align="center">
-  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="100%" alt="API Banking Banner" />
-</p>
